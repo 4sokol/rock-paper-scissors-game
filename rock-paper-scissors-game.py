@@ -27,6 +27,8 @@ def check_win(player, computer):
             return 'You win! Scissors cut Paper!!'
         else:
             return 'You lose! Rock smashes Scissors!'
+    else:
+        return 'Wrong value was added by the Player, please try again'
 
 choices = get_choices()
 result = check_win(choices['player'], choices['computer'])
