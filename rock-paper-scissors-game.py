@@ -9,7 +9,7 @@ def get_choices():
 
 def check_win(player, computer):
     print('You chose '+ player + ', Computer chose ' + computer)
-#   print(f'You chose {player} , Computer chose {computer}')    the same strang as above, with 'f' string
+#   print(f'You chose {player} , Computer chose {computer}')    the same string as above, with 'f' string
     if player == computer:
         return 'It is a Tie!'
     elif player == 'rock': 
